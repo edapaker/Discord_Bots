@@ -6,7 +6,7 @@ const client = new Discord.Client();
 // nodemon --inspect index.js
 
 client.on('ready', ()=>{
-	console.log("Letter-A Inspector is Online!");
+	console.log("Letter-H Inspector is Online!");
 });
 
 client.on('message', msg=>{
