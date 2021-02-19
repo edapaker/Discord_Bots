@@ -1,2 +1,2 @@
 # Discord_Bots
-Discord Bots
+nodemon --inspect index.js
