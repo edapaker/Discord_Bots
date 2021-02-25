@@ -11,6 +11,12 @@ client.on('ready', ()=>{
 
 client.on('message', msg=>{
 	if (msg.author.bot) return;
+
+	if (msg.author.id == 283456683664211969) {
+		var response = "that's lit, man!"
+		msg.reply(response);
+	}
+
 	var desired = msg.content.replace(/[^\w\s]/gi, '')
 	var words = desired.split(" ");
 
